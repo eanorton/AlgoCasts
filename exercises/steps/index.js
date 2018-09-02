@@ -36,16 +36,16 @@ module.exports = steps;
 
 // RECURSIVE SOLUTION:
 
-function steps(n, row = 0, stair = '') {
-  if (n === 0) {
-    return;
-  }
-
-  if (n === stair.length) {
-    console.log(stair);
-    return steps(n, row + 1);
-  }
-
-  const add = stair.length <= row ? '#' : ' ';
-  steps(n, row, stair + add);
-}
+// function steps(n, row = 0, stair = '') {
+//   if (n === 0) {
+//     return;
+//   }
+//
+//   if (n === stair.length) {
+//     console.log(stair);
+//     return steps(n, row + 1);
+//   }
+//
+//   const add = stair.length <= row ? '#' : ' ';
+//   steps(n, row, stair + add);
+// }
